@@ -66,7 +66,7 @@ public class E2eTest extends BaseTest {
 
 	@Test(priority = 8)
 	void login() throws InterruptedException {
-		i.login("venkatakp", "Venky@2310");
+		i.login("ur id", "ur password");
 		System.out.println(" venkatakp log in is successfull");
 		h.notSave();
 	}
