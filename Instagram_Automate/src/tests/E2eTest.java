@@ -21,7 +21,14 @@ import pages.ReelsPage;
 import pages.Stories;
 
 public class E2eTest extends BaseTest {
-
+	@Test(priority = 6)
+	void addPhotoToProfile() throws InterruptedException {
+		h.home();
+		p.profile();
+		Thread.sleep(2000);
+		p.addProfilePhoto();
+		System.out.println("photo is added");
+	}
 	@Test(priority = 4)
 	public void msg() throws InterruptedException {
 
@@ -47,28 +54,29 @@ public class E2eTest extends BaseTest {
 		System.out.println("search is done");
 	}
 
-//	@Test
-//	void logOut() {
-//		p.profile();
-//		p.options();
-//		p.logOut();
-//		System.out.println(" td_sharath log out  is successfull");
-//
-//	}
+	@Test(priority = 7)
+	void logOut() {
+		h.home();
+		p.profile();
+		p.options();
+		p.logOut();
+		System.out.println(" td_sharath log out  is successfull");
 
-//	@Test
-//	void login() throws InterruptedException {
-//		i.login("venkatakp", "Venky@2310");
-//		System.out.println(" venkatakp log in is successfull");
-//		h.notSave();
-//	}
+	}
 
-//	@Test
-//	void followRequestAccepted() {
-//		FollowRequestAccepted f = new FollowRequestAccepted(driver);
-//		f.notifications();
-//		f.FollowRequestAcc();
-//	}
+	@Test(priority = 8)
+	void login() throws InterruptedException {
+		i.login("venkatakp", "Venky@2310");
+		System.out.println(" venkatakp log in is successfull");
+		h.notSave();
+	}
+
+	@Test(priority = 9)
+	void followRequestAccepted() {
+		h.home();
+		f.notifications();
+		f.FollowRequestAcc();
+	}
 
 	@Test(priority = 2)
 	void watchReels() throws InterruptedException {
@@ -124,24 +132,25 @@ public class E2eTest extends BaseTest {
 		System.out.println("Stories opeations is succesfull passed");
 	}
 
-	@Test(priority = 5)
-	void explore() throws InterruptedException {
-		h.home();
-		Thread.sleep(2000);
-		h.explore();
-		Thread.sleep(10000);
-		e.clickReel();
-		Thread.sleep(8000);
-		for (int i1 = 0; i1 < 5; i1++) {
-			e.like();
-			e.next();
-		}
-		for (int i1 = 0; i1 < 5; i1++) {
-			e.like();
-			e.back();
-		}
-		e.exploreClose();
-		System.out.println("explore operation is done");
-	}
+//	@Test(priority = 5)
+//	void explore() throws InterruptedException {
+//		h.home();
+//		Thread.sleep(2000);
+//		h.explore();
+//		Thread.sleep(10000);
+//		e.clickReel();
+//		Thread.sleep(8000);
+//		for (int i1 = 0; i1 < 5; i1++) {
+//			e.like();
+//			e.next();
+//		}
+//		for (int i1 = 0; i1 < 5; i1++) {
+//			e.like();
+//			e.back();
+//		}
+//		e.exploreClose();
+//		System.out.println("explore operation is done");
+//	}
+	
 
 }

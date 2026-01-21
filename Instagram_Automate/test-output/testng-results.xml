@@ -1,59 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-20T16:19:08 IST" name="Default suite" finished-at="2026-01-20T16:23:27 IST" duration-ms="259571">
+  <suite started-at="2026-01-21T18:49:29 IST" name="Default suite" finished-at="2026-01-21T18:52:36 IST" duration-ms="186768">
     <groups>
     </groups>
-    <test started-at="2026-01-20T16:19:08 IST" name="Default test" finished-at="2026-01-20T16:23:27 IST" duration-ms="259571">
+    <test started-at="2026-01-21T18:49:29 IST" name="Default test" finished-at="2026-01-21T18:52:36 IST" duration-ms="186768">
       <class name="tests.E2eTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.E2eTest@6200f9cb]" started-at="2026-01-20T16:19:08 IST" name="setUp" finished-at="2026-01-20T16:19:32 IST" duration-ms="24654" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.E2eTest@6200f9cb]" started-at="2026-01-21T18:49:29 IST" name="setUp" finished-at="2026-01-21T18:49:55 IST" duration-ms="25650" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="viewStories()[pri:0, instance:tests.E2eTest@6200f9cb]" started-at="2026-01-20T16:19:32 IST" name="viewStories" finished-at="2026-01-20T16:20:29 IST" duration-ms="56787" status="PASS">
+        <test-method signature="viewStories()[pri:0, instance:tests.E2eTest@6200f9cb]" started-at="2026-01-21T18:49:55 IST" name="viewStories" finished-at="2026-01-21T18:50:52 IST" duration-ms="57445" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- viewStories -->
-        <test-method signature="search()[pri:1, instance:tests.E2eTest@6200f9cb]" started-at="2026-01-20T16:20:29 IST" name="search" finished-at="2026-01-20T16:20:41 IST" duration-ms="11896" status="PASS">
+        <test-method signature="search()[pri:1, instance:tests.E2eTest@6200f9cb]" started-at="2026-01-21T18:50:52 IST" name="search" finished-at="2026-01-21T18:51:04 IST" duration-ms="11960" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- search -->
-        <test-method signature="watchReels()[pri:2, instance:tests.E2eTest@6200f9cb]" started-at="2026-01-20T16:20:41 IST" name="watchReels" finished-at="2026-01-20T16:22:23 IST" duration-ms="102188" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- watchReels -->
-        <test-method signature="postLike()[pri:3, instance:tests.E2eTest@6200f9cb]" started-at="2026-01-20T16:22:23 IST" name="postLike" finished-at="2026-01-20T16:22:41 IST" duration-ms="18029" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postLike -->
-        <test-method signature="msg()[pri:4, instance:tests.E2eTest@6200f9cb]" started-at="2026-01-20T16:22:41 IST" name="msg" finished-at="2026-01-20T16:23:13 IST" duration-ms="31341" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- msg -->
-        <test-method signature="explore()[pri:5, instance:tests.E2eTest@6200f9cb]" started-at="2026-01-20T16:23:13 IST" name="explore" finished-at="2026-01-20T16:23:27 IST" duration-ms="13955" status="FAIL">
+        <test-method signature="watchReels()[pri:2, instance:tests.E2eTest@6200f9cb]" started-at="2026-01-21T18:51:04 IST" name="watchReels" finished-at="2026-01-21T18:51:12 IST" duration-ms="8053" status="FAIL">
           <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[element click intercepted: Element <svg aria-label="Reel" class="x1lliihq x1n2onr6 x1hfr7tm xq3z1fi" fill="currentColor" height="24" role="img" viewBox="0 0 24 24" width="24">...</svg> is not clickable at point (600, 75). Other element would receive the click: <video loop="" playsinline="" src="https://instagram.fblr20-5.fna.fbcdn.net/o1/v/t2/f2/m86/AQOVvUp4PIIzzkAI3F1nr0Rj9jm290-qS8GWqtyA-PoRk2B_jFFsWJhUpyc63iAF5dWOk3meY_CtHYnIhRnVTmXuuJdo8mMPuW6FtUM.mp4?_nc_cat=107&amp;_nc_oc=AdnwgzeLuItiWiCMLIYurBgVsg5nYgguhTCcKiXgTlQMNVDdz1IbN-9YTY6iT8FhiIR1wOnzuAjZ3NSUwxF6-l4M&amp;_nc_sid=5e9851&amp;_nc_ht=instagram.fblr20-5.fna.fbcdn.net&amp;_nc_ohc=Y84O7-22t6UQ7kNvwGdv08E&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTQxNzUxNTczMzQyNDgzMywiYXNzZXRfYWdlX2RheXMiOjI1LCJ2aV91c2VjYXNlX2lkIjoxMDgyNywiZHVyYXRpb25fcyI6NzQsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;_nc_gid=MG-ogbQDY73ZrgAKK6kBHw&amp;_nc_zt=28&amp;vs=cff2cb7ad7d71021&amp;_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8yODRFQkFGQjA0RUY4NzBEMENFQTI0NzEzNTE2REJCM192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYOnBhc3N0aHJvdWdoX2V2ZXJzdG9yZS9HTTdiTHlSV2RFeGVyeWxjQUNpTm1xUXhJT2gwYnN0VEFRQUYVAgLIARIAKAAYABsCiAd1c2Vfb2lsATEScHJvZ3Jlc3NpdmVfcmVjaXBlATEVAAAmguuInKPOhAUVAigCQzMsF0BSlU_fO2RaGBJkYXNoX2Jhc2VsaW5lXzFfdjERAHX-B2WWqQEA&amp;oh=00_AfplBkEziIuNn1ZbzHy5E1uxbbhwEqjk-8gmRjgaog6Y-g&amp;oe=69713BC8" style="height: 100%; object-fit: cover; width: 100%;"></video>
+              <![CDATA[element click intercepted: Element <svg aria-label="Audio is muted" class="x1lliihq x1n2onr6 xq3z1fi" fill="currentColor" height="16" role="img" viewBox="0 0 48 48" width="16">...</svg> is not clickable at point (857, 56). Other element would receive the click: <div class="x1qjc9v5 x9f619 x78zum5 xdt5ytf x1iyjqo2 xl56j7k">...</div>
   (Session info: chrome=143.0.7499.193)
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ebbcf1d4af5ea88fc319140e64a875ea, clickElement {id=f.5AFD28D15EDF3EDA3D2D3E28A403D4C7.d.14C827576BFA2904ACC3D253343D4298.e.757}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60751}, goog:processID: 23912, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60751/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (ebbcf1d4af5ea88fc319140e64a875ea)] -> xpath: (//*[@aria-label='Reel'])[1]]
-Session ID: ebbcf1d4af5ea88fc319140e64a875ea]]>
+Command: [912d8e5db169320bdef84a76a00283d3, clickElement {id=f.674DABE1AB5CBF6F8D8882319BEEBACC.d.529C6E0E5D413C6EFE5C32D95A465E17.e.370}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64572}, goog:processID: 21280, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64572/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (912d8e5db169320bdef84a76a00283d3)] -> xpath: (//*[@aria-label='Audio is muted'])[1]]
+Session ID: 912d8e5db169320bdef84a76a00283d3]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <svg aria-label="Reel" class="x1lliihq x1n2onr6 x1hfr7tm xq3z1fi" fill="currentColor" height="24" role="img" viewBox="0 0 24 24" width="24">...</svg> is not clickable at point (600, 75). Other element would receive the click: <video loop="" playsinline="" src="https://instagram.fblr20-5.fna.fbcdn.net/o1/v/t2/f2/m86/AQOVvUp4PIIzzkAI3F1nr0Rj9jm290-qS8GWqtyA-PoRk2B_jFFsWJhUpyc63iAF5dWOk3meY_CtHYnIhRnVTmXuuJdo8mMPuW6FtUM.mp4?_nc_cat=107&amp;_nc_oc=AdnwgzeLuItiWiCMLIYurBgVsg5nYgguhTCcKiXgTlQMNVDdz1IbN-9YTY6iT8FhiIR1wOnzuAjZ3NSUwxF6-l4M&amp;_nc_sid=5e9851&amp;_nc_ht=instagram.fblr20-5.fna.fbcdn.net&amp;_nc_ohc=Y84O7-22t6UQ7kNvwGdv08E&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTQxNzUxNTczMzQyNDgzMywiYXNzZXRfYWdlX2RheXMiOjI1LCJ2aV91c2VjYXNlX2lkIjoxMDgyNywiZHVyYXRpb25fcyI6NzQsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;_nc_gid=MG-ogbQDY73ZrgAKK6kBHw&amp;_nc_zt=28&amp;vs=cff2cb7ad7d71021&amp;_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8yODRFQkFGQjA0RUY4NzBEMENFQTI0NzEzNTE2REJCM192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYOnBhc3N0aHJvdWdoX2V2ZXJzdG9yZS9HTTdiTHlSV2RFeGVyeWxjQUNpTm1xUXhJT2gwYnN0VEFRQUYVAgLIARIAKAAYABsCiAd1c2Vfb2lsATEScHJvZ3Jlc3NpdmVfcmVjaXBlATEVAAAmguuInKPOhAUVAigCQzMsF0BSlU_fO2RaGBJkYXNoX2Jhc2VsaW5lXzFfdjERAHX-B2WWqQEA&amp;oh=00_AfplBkEziIuNn1ZbzHy5E1uxbbhwEqjk-8gmRjgaog6Y-g&amp;oe=69713BC8" style="height: 100%; object-fit: cover; width: 100%;"></video>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <svg aria-label="Audio is muted" class="x1lliihq x1n2onr6 xq3z1fi" fill="currentColor" height="16" role="img" viewBox="0 0 48 48" width="16">...</svg> is not clickable at point (857, 56). Other element would receive the click: <div class="x1qjc9v5 x9f619 x78zum5 xdt5ytf x1iyjqo2 xl56j7k">...</div>
   (Session info: chrome=143.0.7499.193)
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ebbcf1d4af5ea88fc319140e64a875ea, clickElement {id=f.5AFD28D15EDF3EDA3D2D3E28A403D4C7.d.14C827576BFA2904ACC3D253343D4298.e.757}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60751}, goog:processID: 23912, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60751/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (ebbcf1d4af5ea88fc319140e64a875ea)] -> xpath: (//*[@aria-label='Reel'])[1]]
-Session ID: ebbcf1d4af5ea88fc319140e64a875ea
+Command: [912d8e5db169320bdef84a76a00283d3, clickElement {id=f.674DABE1AB5CBF6F8D8882319BEEBACC.d.529C6E0E5D413C6EFE5C32D95A465E17.e.370}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64572}, goog:processID: 21280, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64572/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (912d8e5db169320bdef84a76a00283d3)] -> xpath: (//*[@aria-label='Audio is muted'])[1]]
+Session ID: 912d8e5db169320bdef84a76a00283d3
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -66,8 +54,8 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverComman
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
 at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
 at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-at pages.Explore.clickReel(Explore.java:42)
-at tests.E2eTest.explore(E2eTest.java:132)
+at pages.ReelsPage.audioMute(ReelsPage.java:28)
+at tests.E2eTest.watchReels(E2eTest.java:88)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -99,8 +87,32 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- explore -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.E2eTest@6200f9cb]" started-at="2026-01-20T16:23:27 IST" name="tearDown" finished-at="2026-01-20T16:23:27 IST" duration-ms="614" status="PASS">
+        </test-method> <!-- watchReels -->
+        <test-method signature="postLike()[pri:3, instance:tests.E2eTest@6200f9cb]" started-at="2026-01-21T18:51:12 IST" name="postLike" finished-at="2026-01-21T18:51:31 IST" duration-ms="18966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postLike -->
+        <test-method signature="msg()[pri:4, instance:tests.E2eTest@6200f9cb]" started-at="2026-01-21T18:51:31 IST" name="msg" finished-at="2026-01-21T18:52:03 IST" duration-ms="32032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- msg -->
+        <test-method signature="addPhotoToProfile()[pri:6, instance:tests.E2eTest@6200f9cb]" started-at="2026-01-21T18:52:03 IST" name="addPhotoToProfile" finished-at="2026-01-21T18:52:13 IST" duration-ms="9451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPhotoToProfile -->
+        <test-method signature="logOut()[pri:7, instance:tests.E2eTest@6200f9cb]" started-at="2026-01-21T18:52:13 IST" name="logOut" finished-at="2026-01-21T18:52:16 IST" duration-ms="3557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method signature="login()[pri:8, instance:tests.E2eTest@6200f9cb]" started-at="2026-01-21T18:52:16 IST" name="login" finished-at="2026-01-21T18:52:32 IST" duration-ms="16236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="followRequestAccepted()[pri:9, instance:tests.E2eTest@6200f9cb]" started-at="2026-01-21T18:52:32 IST" name="followRequestAccepted" finished-at="2026-01-21T18:52:35 IST" duration-ms="2345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- followRequestAccepted -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.E2eTest@6200f9cb]" started-at="2026-01-21T18:52:35 IST" name="tearDown" finished-at="2026-01-21T18:52:36 IST" duration-ms="913" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

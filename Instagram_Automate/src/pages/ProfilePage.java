@@ -13,13 +13,14 @@ public class ProfilePage {
 	By Profile = By.xpath("(//*[.='Profile'])[1]");
 	By Followers = By.xpath("//*[@href='/td_sharath/followers/']");
 	By Following = By.xpath("//*[@href='/td_sharath/following/']");
-	By AddProfilePhoto = By.xpath("//*[@title='Add a Profile Photo']");
+	By AddBio = By.xpath("//*[@id='pepBio']");
 	String f = "(//div[@style=\"height: auto; overflow: hidden auto;\"])[1]";
 	By Highlite = By.xpath("(//*[@role='button'])[5]");
 	By FollowsList = By.xpath(f);
 	By Close = By.xpath("//*[@aria-label=\"Close\"]");
 	By Options = By.xpath("//*[@aria-label='Options']");
 	By LogOut = By.xpath("//button[8]");
+	By EditPro = By.xpath("//*[@href='/accounts/edit/']");
 
 	public ProfilePage(WebDriver driver) {
 		this.driver = driver;
@@ -65,10 +66,12 @@ public class ProfilePage {
 		System.out.println("Following are displaaying");
 	}
 
-	public void addProfilePhoto() {
-		wait.waitForClick(AddProfilePhoto);
-		driver.findElement(AddProfilePhoto).click();
-
+	public void addProfilePhoto() throws InterruptedException {
+		//wait.waitForClick(AddProfilePhoto);
+		driver.findElement(EditPro).click();
+		Thread.sleep(4000);
+		 driver.findElement(AddBio).sendKeys("SDTE");
+		Thread.sleep(2000);
 	}
 
 	public void close() {

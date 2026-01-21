@@ -10,6 +10,7 @@ import org.testng.annotations.BeforeClass;
 
 import pages.Explore;
 import pages.FollowRequest;
+import pages.FollowRequestAccepted;
 import pages.HomePageActions;
 import pages.InstagramLogInPage;
 import pages.MessagesPage;
@@ -25,6 +26,7 @@ public class BaseTest {
     protected Explore e;
     protected ProfilePage p;
     protected MessagesPage m;
+    protected FollowRequestAccepted f;
 
     @BeforeClass
     public void setUp() throws InterruptedException {
@@ -47,6 +49,7 @@ public class BaseTest {
 		e = new Explore(driver);
 		p = new ProfilePage(driver);
 		m= new MessagesPage(driver);
+		f = new FollowRequestAccepted(driver);
 
         login.login("td_sharath", "vs52venky");
         h.notSave();
