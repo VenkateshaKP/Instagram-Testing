@@ -44,6 +44,7 @@ public class E2eTest extends BaseTest {
 		h.search1Profile();
 		fr.followRequest();
 		// h.profileData();
+		System.out.println("search is done");
 	}
 
 //	@Test
@@ -138,7 +139,7 @@ public class E2eTest extends BaseTest {
 		for (int i1 = 0; i1 < 5; i1++) {
 			e.like();
 			e.back();
-		}
+		} 
 		e.exploreClose();
 		System.out.println("explore operation is done");
 	}
